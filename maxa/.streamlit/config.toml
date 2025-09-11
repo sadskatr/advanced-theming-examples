@@ -9,7 +9,7 @@ textColor = "#262730"
 borderColor = "#E7E7E8"
 showWidgetBroder = false
 baseRadius = "full"
-font = "Inter"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
 headingFont = "Poppins"
 showSidebarBorder = true
 
@@ -18,9 +18,6 @@ backgroundColor = "#FFFFFF"
 secondaryBackgroundColor = "#F0F2F6"
 textColor = "#262730"
 
-[[theme.fontFaces]]
-url = "app/static/Inter-VariableFont_opsz,wght.ttf"
-family = "Inter"
 
 [[theme.fontFaces]]
 url = "app/static/Poppins/Poppins-Regular.ttf"

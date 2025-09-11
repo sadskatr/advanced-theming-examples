@@ -11,43 +11,13 @@ import streamlit as st
 title = "Snowflake theme"
 icon = "❄️"
 logo = "https://upload.wikimedia.org/wikipedia/commons/f/ff/Snowflake_Logo.svg"
-
-infoBackgroundColor = "#d6e6ff"
-infoTextColor = "#002c6e"
-warningBackgroundColor = "#ffedcd"
-warningTextColor = "#653e02"
-successBackgroundColor = "#bdf9ea"
-successTextColor = "#024238"
-errorBackgroundColor = "#ffd1dc"
-errorTextColor = "#66000e"
     
 default_css = """
 body {
     -webkit-font-smoothing: antialiased;
 }
 """
-
-optional_css = f"""
-[data-testid="stAlertContainer"]:has([data-testid="stAlertContentInfo"]) {{
-    background-color: {infoBackgroundColor} !important;
-    color: {infoTextColor} !important;
-}}
-
-[data-testid="stAlertContainer"]:has([data-testid="stAlertContentWarning"]) {{
-    background-color: {warningBackgroundColor} !important;
-    color: {warningTextColor} !important;
-}}
-
-[data-testid="stAlertContainer"]:has([data-testid="stAlertContentSuccess"]) {{
-    background-color: {successBackgroundColor} !important;
-    color: {successTextColor} !important;
-}}
-
-[data-testid="stAlertContainer"]:has([data-testid="stAlertContentError"]) {{
-    background-color: {errorBackgroundColor} !important;
-    color: {errorTextColor} !important;
-}}
-"""
+optional_css = ""
 
 
 # --- Mega tester app content ---

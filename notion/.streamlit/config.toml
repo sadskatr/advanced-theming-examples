@@ -39,6 +39,22 @@ chartSequentialColors = [
     "#198ee9",
 ]
 
+blueTextColor = "#2483e2"
+greenTextColor = "#55a77c"
+yellowTextColor = "#e5b245"
+orangeTextColor = "#d5803b"
+redTextColor = "#e56458"
+violetTextColor = "#b577d7"
+grayTextColor = "#8f8b87"
+
+blueBackgroundColor = "#e8f2fa"
+greenBackgroundColor = "#e8f1ec"
+yellowBackgroundColor = "#f9f3dc"
+orangeBackgroundColor = "#fcebde"
+redBackgroundColor = "#fce9e7"
+violetBackgroundColor = "#f4ebf9"
+grayBackgroundColor = "#f0efed"
+
 
 [theme.sidebar]
 backgroundColor = "#f8f8f7"

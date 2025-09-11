@@ -9,8 +9,8 @@ textColor = "#1E252F"
 linkColor = "#1a6ce7"
 borderColor = "#D6DAE5"
 showWidgetBorder = true
-font = "Inter"
-codeFont = "Apercu Mono Pro"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+codeFont = "Apercu Mono Pro:https://fonts.cdnfonts.com/css/apercu-mono-pro"
 baseFontSize = 14
 baseRadius = "6px"
 codeBackgroundColor = "#f7f7f7"
@@ -47,6 +47,31 @@ chartSequentialColors = [
     "#004cbe",
     "#003e9a",
 ]
+
+blueColor = "#1a6de7"
+greenColor = "#0e9c73"
+orangeColor = "#ff7d1e"
+redColor = "#d31430"
+violetColor = "#7157f5"
+yellowColor = "#f3be11"
+grayColor = "#bec4d6"
+
+blueBackgroundColor = "#d6e7ff"
+greenBackgroundColor = "#bdf9ea"
+# orangeBackgroundColor = ""
+redBackgroundColor = "#ffd1dc"
+violetBackgroundColor = "#ded8fd"
+yellowBackgroundColor = "#ffedce"
+grayBackgroundColor = "#edeef1"
+
+blueTextColor = "#002c6e"
+greenTextColor = "#034238"
+# orangeTextColor = ""
+redTextColor = "#66000d"
+violetTextColor = "#402d9f"
+yellowTextColor = "#663e03"
+grayTextColor = "#1d252f"
+
 
 [theme.sidebar]
 backgroundColor = "#F7F7F7"

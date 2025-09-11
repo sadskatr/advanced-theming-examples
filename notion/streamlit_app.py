@@ -13,34 +13,26 @@ title = "Notion theme"
 icon = "✍️"
 logo = "https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg"
 
-infoBackgroundColor = "#E8F4F8"
 infoTextColor = "#37352f"
-warningBackgroundColor = "#FCF3DC"
 warningTextColor = "#37352f"
-successBackgroundColor = "#EDF3ED"
 successTextColor = "#37352f"
-errorBackgroundColor = "#FDEBEC"
 errorTextColor = "#37352f"
 
 default_css = None
 optional_css = f"""
 [data-testid="stAlertContainer"]:has([data-testid="stAlertContentInfo"]) {{
-    background-color: {infoBackgroundColor} !important;
     color: {infoTextColor} !important;
 }}
 
 [data-testid="stAlertContainer"]:has([data-testid="stAlertContentWarning"]) {{
-    background-color: {warningBackgroundColor} !important;
     color: {warningTextColor} !important;
 }}
 
 [data-testid="stAlertContainer"]:has([data-testid="stAlertContentSuccess"]) {{
-    background-color: {successBackgroundColor} !important;
     color: {successTextColor} !important;
 }}
 
 [data-testid="stAlertContainer"]:has([data-testid="stAlertContentError"]) {{
-    background-color: {errorBackgroundColor} !important;
     color: {errorTextColor} !important;
 }}
 """
